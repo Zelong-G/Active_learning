@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software in academic work, please cite the repository."
+title: "Active Learning for Microscopy Instance Segmentation"
+type: software
+authors:
+  - family-names: "Zheng"
+    given-names: "Zelong"
+    affiliation: "Technical University of Munich"
+repository-code: "https://github.com/Zelong-G/Active_learning"
+version: "0.1.0"
