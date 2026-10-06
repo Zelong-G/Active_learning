@@ -16,7 +16,7 @@ def load_prediction_sets(path: Path) -> dict[str, list[Prediction]]:
     """Load one or more images with repeated predictions from public JSON."""
     payload = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(payload, dict) or not isinstance(payload.get("images"), list):
-        raise ValueError("expected an object with an 'images' list")
+        raise TypeError("expected an object with an 'images' list")
     output: dict[str, list[Prediction]] = {}
     for entry in payload["images"]:
         image_id = str(entry["image_id"])

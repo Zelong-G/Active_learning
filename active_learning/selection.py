@@ -2,7 +2,8 @@
 from __future__ import annotations
 
 import random
-from typing import Literal, Sequence
+from collections.abc import Sequence
+from typing import Literal
 
 from active_learning.scoring import AgreementScore
 
