@@ -6,5 +6,5 @@ authors:
   - family-names: "Zheng"
     given-names: "Zelong"
     affiliation: "Technical University of Munich"
-repository-code: "https://github.com/Zelong-G/Active_learning"
+repository-code: "https://github.com/Zelong-G/microscopy-active-learning"
 version: "0.1.0"
