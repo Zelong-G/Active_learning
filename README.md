@@ -2,7 +2,7 @@
 
 **Agreement-based sample acquisition from repeated stochastic instance-segmentation predictions**
 
-[![CI](https://github.com/Zelong-G/Active_learning/actions/workflows/ci.yml/badge.svg)](https://github.com/Zelong-G/Active_learning/actions/workflows/ci.yml)
+[![CI](https://github.com/Zelong-G/microscopy-active-learning/actions/workflows/ci.yml/badge.svg)](https://github.com/Zelong-G/microscopy-active-learning/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB)
 
 This repository is a **clean research-code reconstruction** of an earlier project exploring annotation-efficient instance segmentation of microscopy images, including red and white blood cell (RBC/WBC) imagery. Its main contribution is an inspectable active-learning selection pipeline based on agreement among repeated predictions.
@@ -46,8 +46,8 @@ The scores are **agreement heuristics, not calibrated predictive uncertainty**. 
 ## Quick start
 
 ```bash
-git clone https://github.com/Zelong-G/Active_learning.git
-cd Active_learning
+git clone https://github.com/Zelong-G/microscopy-active-learning.git
+cd microscopy-active-learning
 
 python -m venv .venv
 source .venv/bin/activate
